@@ -1,4 +1,4 @@
-package com.piateam.jc.bean;
+package com.piateam.jc.bean.model;
 import javax.validation.constraints.NotBlank;
 
 public class LoginRequest {

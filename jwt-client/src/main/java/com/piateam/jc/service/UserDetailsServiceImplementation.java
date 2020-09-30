@@ -7,8 +7,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.piateam.jc.bean.User;
 import com.piateam.jc.bean.UserDetailsBean;
+import com.piateam.jc.bean.entity.User;
 import com.piateam.jc.repository.UserRepository;
 
 @Service

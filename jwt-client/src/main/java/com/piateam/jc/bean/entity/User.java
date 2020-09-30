@@ -1,4 +1,4 @@
-package com.piateam.jc.bean;
+package com.piateam.jc.bean.entity;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,10 +1,11 @@
-package com.piateam.jc.bean;
+package com.piateam.jc.bean.model;
+
 public class MessageResponse {
 	private String message;
 
 	public MessageResponse(String message) {
-	    this.message = message;
-	  }
+		this.message = message;
+	}
 
 	public String getMessage() {
 		return message;

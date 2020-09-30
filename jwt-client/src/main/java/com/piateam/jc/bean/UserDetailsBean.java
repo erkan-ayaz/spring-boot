@@ -10,6 +10,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.piateam.jc.bean.entity.User;
 
 public class UserDetailsBean implements UserDetails {
 	private Long									id;

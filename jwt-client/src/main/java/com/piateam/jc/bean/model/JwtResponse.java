@@ -1,4 +1,4 @@
-package com.piateam.jc.bean;
+package com.piateam.jc.bean.model;
 import java.util.List;
 
 public class JwtResponse {

@@ -1,4 +1,4 @@
-package com.piateam.jc.bean;
+package com.piateam.jc.bean.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
