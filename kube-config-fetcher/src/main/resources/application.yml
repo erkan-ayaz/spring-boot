@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: kube-config-reader #there should be a config-map in kubernetes with that exact name
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+        mode: polling
+        period: 10000 #every 10 second
+
+management:
+# Below probes can be enabled for Kubernetes full integration
+#  health:
+#    livenessstate:
+#      enabled: true
+#    readinessstate:
+#      enabled: true
+  server:
+    base-path: /
+    port: 16000
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+        
+application:
+  dynamic:
+    one: One
+    two: Two
